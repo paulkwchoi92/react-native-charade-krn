@@ -14,6 +14,8 @@ import {
   View,
   Text,
   StatusBar,
+  TextInput,
+  TouchableHighlight
 } from 'react-native';
 
 import {
@@ -28,12 +30,26 @@ class Todo extends Component{
   constructor(props) {
     super(props);
     this.state = { 
-      todos: [1,2,3]
+      todos: [1, 2, 3],
+      newTodo: ""
     }
+  }
+  handleChange(e) {
+    const { value } = e.target
+    this.setState({newTodo: value})
+  }
+
+  handlePress() {
+    const todos = [...this.state.todos, this.state.newTodo]
+    this.setState({todos, newTodo:""})
   }
   render() {
     return ( 
       <View> 
+        <TextInput value={this.state.newTodo} onChange={this.handleChange.bind(this)}/>
+        <TouchableHighlight onPress={this.handlePress.bind(this)}>
+          <Text>tap me</Text>
+        </TouchableHighlight>
         {this.state.todos.map(todo => <Text>t{todo}</Text>)}
       </View>
     )
