@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "KrnCharade-tvOS.app"
-               BlueprintName = "KrnCharade-tvOS"
-               ReferencedContainer = "container:KrnCharade.xcodeproj">
+               BuildableName = "frontend-tvOS.app"
+               BlueprintName = "frontend-tvOS"
+               ReferencedContainer = "container:frontend.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "KrnCharade-tvOSTests.xctest"
-               BlueprintName = "KrnCharade-tvOSTests"
-               ReferencedContainer = "container:KrnCharade.xcodeproj">
+               BuildableName = "frontend-tvOSTests.xctest"
+               BlueprintName = "frontend-tvOSTests"
+               ReferencedContainer = "container:frontend.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "KrnCharade-tvOS.app"
-            BlueprintName = "KrnCharade-tvOS"
-            ReferencedContainer = "container:KrnCharade.xcodeproj">
+            BuildableName = "frontend-tvOS.app"
+            BlueprintName = "frontend-tvOS"
+            ReferencedContainer = "container:frontend.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "KrnCharade-tvOS.app"
-            BlueprintName = "KrnCharade-tvOS"
-            ReferencedContainer = "container:KrnCharade.xcodeproj">
+            BuildableName = "frontend-tvOS.app"
+            BlueprintName = "frontend-tvOS"
+            ReferencedContainer = "container:frontend.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
