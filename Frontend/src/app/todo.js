@@ -29,6 +29,8 @@ class Todo extends Component {
         <TouchableOpacity onPress={this.handlePress.bind(this)}>
           <Text>tap me</Text>
           <Text>tap me</Text>
+          <Text>tap me</Text>
+
         </TouchableOpacity>
         {this.state.todos.map(todo => (
           <Text>t{todo}</Text>
