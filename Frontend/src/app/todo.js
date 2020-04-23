@@ -30,6 +30,8 @@ class Todo extends Component {
           <Text>tap me</Text>
           <Text>tap me</Text>
           <Text>tap me</Text>
+          <Text>tap me</Text>
+          <Text>tap me</Text>
 
         </TouchableOpacity>
         {this.state.todos.map(todo => (
