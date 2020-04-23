@@ -26,9 +26,10 @@ class Todo extends Component {
           value={this.state.newTodo}
           onChangeText={this.handleChange.bind(this)}
         />
-        <TouchableHighlight onPress={this.handlePress.bind(this)}>
+        <TouchableOpacity onPress={this.handlePress.bind(this)}>
           <Text>tap me</Text>
-        </TouchableHighlight>
+          <Text>tap me</Text>
+        </TouchableOpacity>
         {this.state.todos.map(todo => (
           <Text>t{todo}</Text>
         ))}
