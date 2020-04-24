@@ -15,10 +15,8 @@ class Todo extends Component {
       newTodo: '',
     };
 
-    console.log("test")
   }
   handleChange(text) {
-    debugger
     this.setState({newTodo: text});
   }
 
