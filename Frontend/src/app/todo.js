@@ -20,7 +20,8 @@ class Todo extends Component {
     this.setState({newTodo: text});
   }
   handleRemove(e) {
-    const newArr = this.state.todos.filter( field => field !== e.target)
+    const newArr = this.state.todos.filter(field => field !== e.target)
+    this.setState({todos: newArr})
   }
 
   handlePress() {
