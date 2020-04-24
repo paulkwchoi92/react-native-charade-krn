@@ -1,7 +1,11 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react';
 import {
-  View, Text, TextInput, TouchableOpacity, TouchableHighlight
-} from 'react-native'
+  View,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  TouchableHighlight,
+} from 'react-native';
 
 class Todo extends Component {
   constructor(props) {
@@ -10,16 +14,19 @@ class Todo extends Component {
       todos: [1, 2, 3],
       newTodo: '',
     };
+
+    console.log("test")
   }
   handleChange(text) {
-    this.setState({ newTodo: text });
+    debugger
+    this.setState({newTodo: text});
   }
 
   handlePress() {
     const todos = [...this.state.todos, this.state.newTodo];
     this.setState({todos, newTodo: ''});
   }
-  render() { 
+  render() {
     return (
       <View>
         <TextInput
@@ -28,8 +35,6 @@ class Todo extends Component {
         />
         <TouchableOpacity onPress={this.handlePress.bind(this)}>
           <Text>tap me</Text>
-
-
         </TouchableOpacity>
         {this.state.todos.map(todo => (
           <Text>t{todo}</Text>
@@ -39,4 +44,4 @@ class Todo extends Component {
   }
 }
 
-export default Todo
+export default Todo;
