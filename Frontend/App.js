@@ -16,11 +16,9 @@ class Main extends Component{
   render() {
     return (
       <Fancy />
-      <Fancy />
 
-      <Fancy />
 
-      
+
     )
   }
 }
