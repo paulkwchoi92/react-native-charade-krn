@@ -30,6 +30,9 @@ const styles = StyleSheet.create({
   },
   sideButtons: {
     flex:2
+  },
+  cardBackground: {
+    flex:1
   }
 });
 
