@@ -27,6 +27,9 @@ const styles = StyleSheet.create({
   },
   buttonSingup: {
     flex:1
+  },
+  sideButtons: {
+    flex:2
   }
 });
 
