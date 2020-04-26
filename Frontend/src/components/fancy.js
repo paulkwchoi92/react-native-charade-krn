@@ -24,6 +24,9 @@ const styles = StyleSheet.create({
   box: {
     flex: 2,
     backgroundColor:"black"
+  },
+  buttonSingup: {
+    flex:1
   }
 });
 
