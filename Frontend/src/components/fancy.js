@@ -21,6 +21,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   },
+  box: {
+    flex: 2,
+    backgroundColor:"black"
+  }
 });
 
 export default Fancy
